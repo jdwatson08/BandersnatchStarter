@@ -25,8 +25,7 @@ def test_shape():
     print(f'{x_train.shape}, {x_test.shape}')
     print(f'{y_train.shape}, {y_test.shape}')
     for column in df:
-        print(column)
-        print(type(column))
+        print(f'{column} {type(column)}')
 
 
 if __name__ == '__main__':
