@@ -1,6 +1,5 @@
 from data import Database
 from sklearn.model_selection import train_test_split
-import numpy as np
 
 
 def test_something():

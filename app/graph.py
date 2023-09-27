@@ -3,6 +3,9 @@ from pandas import DataFrame
 
 
 def chart(df: DataFrame, x: str, y: str, target: str) -> Chart:
+    """This method makes a chart from a data set it is given. It takes as its parameter a dataframe, 2 features from the
+    dataframe, and a target to use for comparison.
+    """
     del df[df.columns[0]]
     graph = Chart(
         df,
