@@ -33,4 +33,4 @@ class Machine:
 
     def info(self):
         """This function returns the name and creation timestamp of the model."""
-        return self.name, self.timestamp
+        return f"{self.name} created {self.timestamp.date()} at {self.timestamp.time()}"
